@@ -162,82 +162,82 @@ plugin-permission-scope:
   not-op: "&6Não OP"
 tags:
   tagged:
-    message: hover:{{$s}&l@%tag%;{$p}Você foi marcado}
+    message: hover:{{$s}&l@%tag%;{$p}Foste marcado}
     sound: ENTITY_EXPERIENCE_ORB_PICKUP
   others: hover:{&l@%tag%;&9Tag}
   offline: hover:{{$es}@%tag%;{$e}Desligada}
   unknown-player: hover:{{$e}@%tag%;&4Jogador desconhecido}
 world-edit:
-  excluded: "{$e}Um total de {$es}%blocks% {$e}foram excluídos do WorldEdit porque não estavam em sua terra."
+  excluded: "{$e}Um total de {$es}%blocks% {$e}foram excluídos do WorldEdit porque não estavam na tua terra."
 tax:
-  kick: "{$e}Você não tinha dinheiro suficiente para pagar os impostos do seu reino e, portanto, foi expulso."
+  kick: "{$e}Não tinhas dinheiro suficiente para pagar os impostos do teu reino e, portanto, foste expulso."
   reminder: |
 
-    &4&l&nAttention{$colon} {$e}&lVerificações diárias serão realizadas em{$colon} {$es}%time%
-  total: "{$p}Seu reino ganhou um total de {$s}$%tax% {$p}com a coleta de impostos."
-  paid: "{$es}$%tax% {$e}foi retirado da sua conta para o imposto do seu reino."
-  excluded-permission: "{$p}Você não pagou impostos do reino porque foi excluído."
-  excluded-new: "{$p}Você não pagou impostos do reino porque era novo."
+    &4&l&nAtenção{$colon} {$e}&lVerificações diárias vão ser realizadas às{$colon} {$es}%time%
+  total: "{$p}O teu reino ganhou um total de {$s}$%tax% {$p}com a coleta de impostos."
+  paid: "{$es}$%tax% {$e}foi retirado da tua conta para o imposto do teu reino."
+  excluded-permission: "{$p}Não pagaste impostos do reino porque foste excluído."
+  excluded-new: "{$p}Não pagaste impostos do reino porque eras novo."
   kingdom:
-    age: "&5Seu reino não pagou os impostos porque é novo."
+    age: "&5O teu reino não pagou os impostos porque é novo."
     paid: |
-      {$p}Um total de {$s}$%tax% {$p}imposto do reino foi pago.
+      {$p}Um total de {$s}$%tax% {$p} de impostos do reino foram pagos.
       Saldo Bancário do Novo Reino{$colon} {$s}$%fancy@kingdoms_bank%
     paid-nation: |
-      {$p}Um total de {$s}$%tax% {$p}o imposto do reino foi pago à sua nação.
+      {$p}Um total de {$s}$%tax% {$p} de impostos do reino foram pagos à tua nação.
       Saldo Bancário do Novo Reino{$colon} {$s}$%fancy@kingdoms_bank%
       {$p}Novo Saldo Bancário Nacional{$colon} {$s}$%fancy@kingdoms_nation_bank%
-    kicked: "{$es}%kingdoms_kingdom_name% {$e}reino foi expulso da nação por não poder pagar os impostos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
-    disbanded: "{$e}Seu reino foi dissolvido por não poder pagar os impostos{$colon} {$es}$%tax%"
-    disbanded-announce: "{$es}%kingdom% {$e}reino foi dissolvido por não poder pagar os impostos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
-    kicked-announce: "{$es}%kingdoms_kingdom_name% {$e}reino foi expulso de {$es}%kingdoms_nation_name% {$e}nação por não poder pagar os impostos {$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
+    kicked: "O teu reino {$es}%kingdoms_kingdom_name% {$e} foi expulso da nação por não poder pagar os impostos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
+    disbanded: "{$e}O teu reino foi dissolvido por não poder pagar os impostos{$colon} {$es}$%tax%"
+    disbanded-announce: "O reino {$es}%kingdom% {$e} foi dissolvido por não poder pagar os impostos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
+    kicked-announce: "O reino {$es}%kingdoms_kingdom_name% {$e} foi expulso de da nação {$es}%kingdoms_nation_name% {$e} por não conseguir pagar os impostos{$colon} {$es}%fancy@kingdoms_bank% {$sep}< {$es}$%tax%"
   nation:
-    age: "&5Sua nação não pagou os impostos porque é novo."
+    age: "&5A tua nação não pagou os impostos porque é nova."
     paid: |
-      {$p}Um total de {$s}$%tax% {$p}imposto nacional foi pago.
+      {$p}Um total de {$s}$%tax% {$p} de imposto nacional foi pago.
       Novo Saldo Bancário Nacional{$colon} {$s}$%fancy@kingdoms_nation_bank%
-    disbanded: "{$e}Sua nação foi dissolvida por não poder pagar os impostos{$colon} {$es}$%tax%"
-    disbanded-announce: "{$es}%nation% {$e}nação foi dissolvida por não poder pagar os impostos{$colon} {$es}%fancy@kingdoms_nation_bank% {$sep}< {$es}$%tax%"
+    disbanded: "{$e}A tua nação foi dissolvida por não poder pagar os impostos{$colon} {$es}$%tax%"
+    disbanded-announce: "A nação {$es}%nation% {$e} foi dissolvida por não conseguir pagar os impostos{$colon} {$es}%fancy@kingdoms_nation_bank% {$sep}< {$es}$%tax%"
   notifications: |
-    {$sep}[&4AVISO{$sep}] {$e}Seu reino não tem dinheiro suficiente &7({$es}%fancy@kingdoms_bank%&7) {$e}no banco para pagar impostos para o próximo ciclo de faturamento{$colon} {$es}%tax%
-    {$e}Se os impostos recolhidos dos membros não forem suficientes, o seu reino será dissolvido.
-  kick-announce: "{$es}%player% {$e}foi expulso por não poder pagar os impostos{$colon} {$es}%tax%"
-  member-paid: "{$s}$%tax% {$p}foi retirado da sua conta para imposto do reino."
+    {$sep}[&4AVISO{$sep}] {$e}O teu reino não tem dinheiro suficiente &7({$es}%fancy@kingdoms_bank%&7) {$e}no banco para pagar impostos para o próximo ciclo de faturação{$colon} {$es}%tax%
+    {$e}Se os impostos recolhidos dos membros não forem suficientes, o teu reino será dissolvido.
+  kick-announce: "O jogador {$es}%player% {$e}foi expulso por não conseguir pagar os impostos{$colon} {$es}%tax%"
+  member-paid: "{$s}$%tax% {$p}foi retirado da tua conta para pagar impostos do reino."
 in-claim-only:
   placing:
-    general: "{$e}Você só pode construir no terreno reivindicado."
-    radius: "{$e}Você só pode construir em seu terreno reivindicado ou dentro {$s}%radius% {$e}pedaços de sua terra."
-    charges: "{$e}Você precisa {$es}$%money% {$e}dinheiro e seu reino precisa {$es}%rp% {$e}pontos de recursos para colocar blocos fora das terras reivindicadas."
+    general: "{$e}Só podes construir em terrenos reivindicados."
+    radius: "{$e}Só podes construir em terrenos reivindicados ou dentro de {$s}%radius% {$e} chunks da tua terra."
+    charges: "{$e}Precisas de {$es}$%money% {$e} esmeraldas e o teu reino precisa de {$es}%rp% {$e}pontos de recursos para colocar blocos fora das terras reivindicadas."
   breaking:
-    charges: "{$e}Você precisa {$es}$%money% {$e}dinheiro e seu reino precisa {$es}%rp% {$e}pontos de recurso para quebrar blocos fora das terras reivindicadas."
-    radius: "{$e}Você só pode construir em seu terreno reivindicado ou dentro {$s}%radius% {$e}pedaços de sua terra."
-    general: "{$e}Você só pode construir em seu terreno reivindicado."
+    charges: "{$e}Precisas {$es}$%money% {$e} esmeraldas e o teu reino precisa de {$es}%rp% {$e}pontos de recurso para partir blocos fora das terras reivindicadas."
+    radius: "{$e}Só podes construir em terrenos reivindicados ou dentro  de {$s}%radius% {$e} chunks da tua terra."
+    general: "{$e}Só podes construir em seu terreno reivindicado."
 structures:
-  limit: "{$e}Você só pode ter {$es}%limit% {$e}total de estruturas por terreno."
-  specific-limit: "{$e}Você só pode ter {$es}%limit% %style% {$e}estruturas por terreno."
+  limit: "{$e}Só podes ter um total de {$es}%limit% {$e}estruturas por terreno."
+  specific-limit: "{$e}Só podes ter um total de {$es}%limit% %style% {$e}estruturas por terreno."
   specific-total-limit: "{$e}Você só pode ter {$es}%limit% %style% {$e}estruturas."
   cant-place-in-biome: "{$e}Esta estrutura não pode ser colocada neste bioma."
-  block-occupied: "{$e}Não é possível colocar estrutura aqui. {$es}%material% {$e} A bloco colocado aqui."
-  enter-name: "{$p}Insira o novo nome da sua estrutura."
+  block-occupied: "{$e}Não é possível colocar uma estrutura aqui. {$es}%material% {$e} colocado aqui."
+  enter-name: "{$p}Insere o novo nome da tua estrutura."
   name-set: "{$p}Nome da estrutura definido como{$colon} {$s}%name%"
-  disabled-world: "{$e}Você não pode colocar estruturas em mundos deficientes."
+  disabled-world: "{$e}Não podes colocar estruturas em mundos desativados."
   upgrade:
     max-level: "{$e}R."
-  upgrade-not-enough-resource-points: "{$e}Você precisa {$es}%cost% {$e}pontos de recurso para atualizar."
-  upgrade-upgraded: "{$p}Estrutura atualizada para nível {$s}%level%"
+  upgrade-not-enough-resource-points: "{$e}Precisas de {$es}%cost% {$e}pontos de recurso para fazer a atualização."
+  upgrade-upgraded: "{$p}Estrutura atualizada para o nível {$s}%level%"
 structures-limit:
-  on-claim: "{$e}A terra que você reivindicou {$es}%chunk% {$e}tinha algumas estruturas que foram quebradas devido a um limite de estrutura."
+  on-claim: "{$e}A terra que reivindicaste {$es}%chunk% {$e}tinha algumas estruturas que foram deformadas devido a um limite de estrutura."
 turrets:
-  limit: "{$e}Você só pode colocar {$es}%limit% {$e}torres em cada terra."
-  block-occupied: "{$e}Não é possível colocar a torre aqui. {$es}%material% {$e} A bloco é colocado aqui."
-  already-placed: "{$e}Já existe uma torre colocada lá."
-  cant-place: "{$e}Esta torre não pode ser colocada neste bloco.Por favor, coloque a torre em um {$es}cerca {$e}ou um {$es}bloco de parede"
+  limit: "{$e}Só podes um máximo de {$es}%limit% {$e}torres em cada terra."
+  block-occupied: "{$e}Não é possível colocar a torre aqui. {$es}%material% {$e}está colocado aqui."
+  already-placed: "{$e}Já existe uma torre colocada aí."
+  cant-place: "{$e}Esta torre não pode ser colocada neste bloco. Por favor, coloca a torre numa {$es}cerca {$e}ou num {$es}bloco de parede."
   cant-place-in-biome: "{$e}Esta torre não pode ser colocada neste bioma."
-  disabled-world: "{$e}Você não pode colocar torres em mundos desativados."
-  not-manual: "{$e}Esta torre não está no modo manual.Ative-o primeiro."
-  manual-operating: "{$p}Modo manual{$colon} {$p}Aponte para a direção do seu inimigo enquanto segura qualquer item e &9Clique esquerdo."
+  disabled-world: "{$e}Não podes colocar torres em mundos desativados."
+  not-manual: "{$e}Esta torre não está no modo manual. Ativa-o primeiro."
+  manual-operating: "{$p}Modo manual{$colon} {$p}Aponta para a direção do teu inimigo enquanto seguras num item qualquer e &9Carrega com o botão esquerdo."
 turrets-limit:
-  on-claim: "{$e}A terra que você reivindicou {$es}%chunk% {$e}tinha algumas torres que foram quebradas devido ao limite da torre."
+  on-claim: "{$e}A terra que reivindicaste {$es}%chunk% {$e}tinha algumas torres que foram deformadas devido ao limite da torre."
 locations:
   normal: "{$s}%translated-world%{$sep}, {$s}%x%{$sep}, {$s}%y%{$sep}, {$s}%z%"
   chunk: "{$s}%translated-world%{$sep}, {$s}%x%{$sep}, {$s}%z%"
@@ -246,34 +246,34 @@ placeholders:
 bossbar:
   editor:
     title:
-      enter: "{$p}Digite o título da barra do chefe {$cancel}"
+      enter: "{$p}Escreve o título da barra do boss {$cancel}"
 siege-cannon:
   ready-fire: "{$p}O canhão está pronto para disparar."
-  sit: "{$p}Você está agora no canhão.Carregue você mesmo ou deixe outra pessoa fazer isso."
+  sit: "{$p}Estás agora no canhão. Carrega-te a ti mesmo ou deixa outra pessoa fazer isso."
   occupied: "{$e}Alguém já está sentado no canhão."
   masswar-only: "{$e}Você só pode usar canhões de cerco durante guerras em massa."
   already-loaded: "{$e}O canhão já está carregado."
   not-ammo: "{$e}Canhões só podem ser carregados com os projéteis especificados na GUI."
   hit:
-    unclaimed-land: "{$e}Canhão atingiu uma terra não reclamada."
-    players-shield: "{$e}Seu escudo foi atingido por um canhão de cerco e foi quebrado."
-    no-shield: "{$p}Canhão atingiu {$s}%kingdoms_kingdom_name% {$p}reino. Eles não tinham escudo."
-    pacifist: "{$e}Canhão atingiu {$es}%kingdoms_kingdom_name% {$e}reino, mas eles são um reino pacifista."
-    destroyed-shield: "{$p}Canhão atingiu {$s}%kingdoms_kingdom_name% {$p}reino.Seu escudo foi destruído."
-    damaged-shield: "{$p}Canhão atingiu {$s}%kingdoms_kingdom_name% {$p}reino.Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%"
-    damaged-shield-notify: "{$es}%attacker-kingdom% {$e}reino atingiu sua terra em {$es}%attacked-chunk%{$e}. Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%"
+    unclaimed-land: "{$e}Canhão atingiu uma terra não reivindicada."
+    players-shield: "{$e}O teu escudo foi atingido por um canhão de cerco e quebrou-se."
+    no-shield: "{$p}Canhão atingiu o reino {$s}%kingdoms_kingdom_name% {$p}. Eles não tinham escudo."
+    pacifist: "{$e}Canhão atingiu o reino {$es}%kingdoms_kingdom_name% {$e}, mas esse reino é pacifista."
+    destroyed-shield: "{$p}Canhão atingiu o reino{$s}%kingdoms_kingdom_name% {$p}. O seu escudo foi destruído."
+    damaged-shield: "{$p}Canhão atingiu o reino {$s}%kingdoms_kingdom_name% {$p}. Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%"
+    damaged-shield-notify: "O reino{$es}%attacker-kingdom% {$e} atingiu a tua terra em {$es}%attacked-chunk%{$e}. Escudo restante{$colon} {$s}%time@kingdoms_shield_time_left%"
   friendly:
-    fire: "{$e}Canhão acertou um amistoso (nenhum atributo INVADE) terreno que pertence {$es}%kingdom%"
+    fire: "{$e}Canhão acertou num terreno (nenhum atributo INVADE) aliado que pertence ao reino {$es}%kingdom%"
 lands:
-  build-own-only: "{$e}Você só pode construir nas terras que reivindicou."
-  portal-protection: "{$e}O teletransporte do seu portal foi cancelado porque este portal leva a um reino hostil."
-  ender-pearl-protection: "{$e}Sua pérola ender pousou em um reino inimigo!"
-  gamemode-protection: "{$e}Seu modo de jogo foi alterado para entrar em uma terra estrangeira."
-  gamemode-protection-activated: "{$e}Você não pode usar o modo criativo nesta terra."
+  build-own-only: "{$e}Só podes construir nas terras que reivindicaste."
+  portal-protection: "{$e}O teletransporte do teu portal foi cancelado porque este portal leva a um reino hostil."
+  ender-pearl-protection: "{$e}A tua pérola ender caiu num reino inimigo!"
+  gamemode-protection: "{$e}O teu modo de jogo foi alterado para entrares numa terra estrangeira."
+  gamemode-protection-activated: "{$e}Não podes usar o modo criativo nesta terra."
   nation-zone:
-    place: "{$e}Você não pode colocar blocos na zona nacional de {$es}%nation%"
-    break: "{$e}Você não pode quebrar blocos na zona nacional de {$es}%nation%"
-    interact: "{$e}Você não pode interagir na zona nacional de {$es}%nation%"
+    place: "{$e}Não podes colocar blocos na zona nacional de {$es}%nation%"
+    break: "{$e}Não podes partir blocos na zona nacional de {$es}%nation%"
+    interact: "{$e}Não podes interagir na zona nacional de {$es}%nation%"
   visualizer:
     wilderness:
       actionbar: "{$sep}&l-=( {$p}&lTerra Desocupada {$sep}&l)=-"
